@@ -1,1 +1,4 @@
-robot_weapon_list = ["Gun", "Sword", "Axe"]
+from battlefield import Battlefield
+
+battlefield = Battlefield()
+battlefield.start_game()
